@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
-    "BackEnd/config/wsgi.py": {
+    "config/wsgi.py": {
       "maxDuration": 60,
       "memory": 1024
     }

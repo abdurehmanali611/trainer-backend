@@ -1,5 +1,5 @@
 [tool.vercel]
-entrypoint = "BackEnd/config.wsgi:application"
+entrypoint = "config.wsgi:application"
 
 [tool.vercel.scripts]
-build = "python BackEnd/manage.py migrate --noinput"
+build = "python manage.py migrate --noinput"
