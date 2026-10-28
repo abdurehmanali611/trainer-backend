@@ -1,11 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": null,
   "functions": {
-    "api/index.py": {
+    "BackEnd/config/wsgi.py": {
       "maxDuration": 60,
       "memory": 1024
     }
-  },
-  "rewrites": [{ "source": "/(.*)", "destination": "/api/index.py" }]
+  }
 }
